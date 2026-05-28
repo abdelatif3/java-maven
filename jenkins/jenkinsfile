@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         DOCKERHUB_CREDENTIALS = credentials('dockerHub')
-        DOCKER_IMAGE = 'ton-username-dockerhub/java-maven'
+        DOCKER_IMAGE = 'lotfibz/java-maven'
     }
 
     stages {
